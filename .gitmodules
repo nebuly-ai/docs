@@ -1,6 +1,8 @@
 [submodule "nos"]
 	path = nos
 	url = https://github.com/nebuly-ai/nos
+  branch = main
 [submodule "nebullvm"]
 	path = nebullvm
 	url = https://github.com/nebuly-ai/nebullvm
+  branch = main
