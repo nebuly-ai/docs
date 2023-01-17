@@ -14,3 +14,13 @@ update-nos: ## Update the nos sub-module to the latest commit on `main`
 
 .PHONY: update
 update: update-nebullvm update-nos ## Update all the nos sub-modules to the latest commit on `main`
+
+##@ Development
+
+.PHONY: serve
+serve: ## Start a local web server for serving documentation
+	@ mkdocs serve || echo "Error running mkserve. Have you run make install?"
+
+.PHONY: install
+install: ## Install the requirements for starting the local web server for serving docs
+	@ pip install -r requirements.txt
