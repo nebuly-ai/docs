@@ -1,10 +1,7 @@
-site_name: Nebuly docs
+site_name: Modules
 
 nav:
-  /* - Speedster: '!include ./nebullvm/apps/accelerate/speedster/mkdocs.yml' */
-  /* - OpenAlphaTensor: '!include ./nebullvm/apps/accelerate/open_alpha_tensor/mkdocs.yml' */
-  /* - Forward-Forward: '!include ./nebullvm/apps/accelerate/forward_forward/mkdocs.yml' */
-  - nos: '!include nos/docs/mkdocs.yml'
+  - nos: '!include nos/docs/en/mkdocs.yaml'
 
 plugins:
   - monorepo
