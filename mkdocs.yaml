@@ -2,6 +2,7 @@ site_name: Modules
 
 nav:
   - Quickstart: docs/quickstart.md
+  - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
   - nos: '!include nos/docs/en/mkdocs.yaml'
 
 plugins:
