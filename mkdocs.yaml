@@ -56,3 +56,4 @@ theme:
   - navigation.tracking
   - navigation.path
   - navigation.expand
+  - navigation.footer
