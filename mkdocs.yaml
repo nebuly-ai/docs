@@ -1,6 +1,7 @@
 site_name: Modules
 
 nav:
+  - Quickstart: docs/quickstart.md
   - nos: '!include nos/docs/en/mkdocs.yaml'
 
 plugins:
