@@ -6,11 +6,11 @@ help: ## Display this help.
 
 .PHONY: update-nebullvm
 update-nebullvm: ## Update the nebullvm sub-module to the latest commit on `main`
-	git submodule update --remote ./nebullvm
+	@ git submodule update --remote ./nebullvm
 
 .PHONY: update-nos
 update-nos: ## Update the nos sub-module to the latest commit on `main`
-	git submodule update --remote ./nos
+	@ git submodule update --remote ./nos
 
 .PHONY: update
 update: update-nebullvm update-nos ## Update all the nos sub-modules to the latest commit on `main`
