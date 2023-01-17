@@ -5,7 +5,7 @@ nav:
     - Quickstart: quickstart.md
   - Modules:
     - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
-    - nos: '!include nos/docs/en/mkdocs.yaml'
+    - nos: '!include ./nos/docs/en/mkdocs.yaml'
 
 plugins:
   - monorepo
@@ -50,5 +50,4 @@ theme:
   - navigation.sections
   - navigation.tracking
   - navigation.path
-  - navigation.indexes
   - navigation.expand
