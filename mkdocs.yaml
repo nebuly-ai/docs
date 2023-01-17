@@ -13,9 +13,13 @@ plugins:
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
   - def_list
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tabbed:
@@ -45,6 +49,7 @@ theme:
   - search.suggest
   - search.highlight
   - content.tabs.link
+  - content.code.copy
   - navigation.instant
   - navigation.expand
   - navigation.sections
