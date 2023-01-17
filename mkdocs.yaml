@@ -1,4 +1,4 @@
-site_name: Nebuly doc
+site_name: Documentation
 
 nav:
   - 👋 Welcome:
@@ -10,6 +10,16 @@ nav:
 plugins:
   - monorepo
   - search  
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 theme:
   name: material
