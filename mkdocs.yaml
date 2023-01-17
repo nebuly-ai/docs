@@ -1,9 +1,11 @@
-site_name: Modules
+site_name: Nebuly doc
 
 nav:
-  - Quickstart: docs/quickstart.md
-  - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
-  - nos: '!include nos/docs/en/mkdocs.yaml'
+  - 👋 Welcome:
+    - Quickstart: docs/quickstart.md
+  - Modules:
+    - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
+    - nos: '!include nos/docs/en/mkdocs.yaml'
 
 plugins:
   - monorepo
@@ -12,21 +14,28 @@ plugins:
 theme:
   name: material
   palette:
-  - media: '(prefers-color-scheme: light)'
-    scheme: default
-    primary: teal
-    accent: amber
-    toggle:
-      icon: material/lightbulb
-      name: Switch to light mode
-  - media: '(prefers-color-scheme: dark)'
-    scheme: slate
-    primary: teal
-    accent: amber
-    toggle:
-      icon: material/lightbulb-outline
-      name: Switch to dark mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
   features:
   - search.suggest
   - search.highlight
   - content.tabs.link
+  - navigation.instant
+  - navigation.expand
+  - navigation.sections
+  - navigation.tracking
+  - navigation.path
+  - navigation.indexes
+  - navigation.expand
