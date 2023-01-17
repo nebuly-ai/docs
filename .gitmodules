@@ -1,0 +1,6 @@
+[submodule "nos"]
+	path = nos
+	url = git@github.com:nebuly-ai/nos
+[submodule "nebullvm"]
+	path = nebullvm
+	url = git@github.com:nebuly-ai/nebullvm
