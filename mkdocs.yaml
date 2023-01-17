@@ -2,7 +2,7 @@ site_name: Documentation
 
 nav:
   - 👋 Welcome:
-    - Quickstart: docs/quickstart.md
+    - Quickstart: quickstart.md
   - Modules:
     - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
     - nos: '!include nos/docs/en/mkdocs.yaml'
@@ -15,6 +15,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
