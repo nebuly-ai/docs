@@ -5,7 +5,7 @@ nav:
     - Quickstart: quickstart.md
   - Modules:
     - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
-    - nos: '!include ./nos/docs/en/mkdocs.yaml'
+    - Nos: '!include ./nos/docs/en/mkdocs.yaml'
 
 plugins:
   - monorepo
