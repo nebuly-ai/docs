@@ -4,9 +4,20 @@ help: ## Display this help.
 
 ##@ Deployment
 
+.PHONY: pull
+pull:
+	@ git pull -p
+
+.PHONY: update-nebullvm
+update-nebullvm: ## Update the nebullvm sub-module to the latest commit on `main`
+	@ git submodule update --remote ./nebullvm
+
+.PHONY: update-nos
+update-nos: ## Update the nos sub-module to the latest commit on `main`
+	@ git submodule update --remote ./nos
+
 .PHONY: update
-update:  # Pull the latest changes from this repo and all its sub-modules
-	git pull --recurse-submodules
+update: pull update-nebullvm update-nos ## Update all the nos sub-modules to the latest commit on `main`
 
 ##@ Development
 

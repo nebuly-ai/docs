@@ -4,7 +4,7 @@ repo_name: nebuly-ai/nebullvm
 
 nav:
   - 👋 Welcome:
-    - Quickstart: quickstart.md
+    - Quickstart: index.md
     - Questions and contributions: contributions.md
   - Modules:
     - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
@@ -33,7 +33,7 @@ markdown_extensions:
 
 theme:
   name: material
-  logo: /assets/logo_nebuly.png
+  logo: /assets/logo_n.png
   palette:
     - media: '(prefers-color-scheme: light)'
       scheme: default
