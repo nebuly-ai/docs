@@ -33,17 +33,18 @@ markdown_extensions:
 
 theme:
   name: material
+  logo: /assets/logo_nebuly.png
   palette:
     - media: '(prefers-color-scheme: light)'
       scheme: default
-      primary: teal
+      primary: black
       accent: amber
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
-      primary: teal
+      primary: black
       accent: amber
       toggle:
         icon: material/toggle-switch-off-outline
