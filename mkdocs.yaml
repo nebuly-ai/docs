@@ -54,10 +54,8 @@ theme:
   - content.tabs.link
   - content.code.copy
   - navigation.instant
-  - navigation.expand
   - navigation.sections
   - navigation.tracking
   - navigation.path
-  - navigation.expand
   icon:
       repo: fontawesome/brands/github
