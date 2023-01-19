@@ -1,8 +1,11 @@
 site_name: Documentation
+repo_url: https://github.com/nebuly-ai/nebullvm
+repo_name: nebuly-ai/nebullvm
 
 nav:
   - 👋 Welcome:
     - Quickstart: quickstart.md
+    - Questions and contributions: contributions.md
   - Modules:
     - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
     - Nos: '!include ./nos/docs/en/mkdocs.yaml'
@@ -36,14 +39,14 @@ theme:
       primary: teal
       accent: amber
       toggle:
-        icon: material/lightbulb
+        icon: material/toggle-switch
         name: Switch to light mode
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
       primary: teal
       accent: amber
       toggle:
-        icon: material/lightbulb-outline
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
   features:
   - search.suggest
@@ -56,4 +59,5 @@ theme:
   - navigation.tracking
   - navigation.path
   - navigation.expand
-  - navigation.footer
+  icon:
+      repo: fontawesome/brands/github
