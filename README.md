@@ -1,3 +1,3 @@
 # Nebuly docs
 
-This repository contains the documentation of Nebuly modules.
+Repository for hosting Nebuly's documentation. You can find it on [docs.nebuly.ai](https://docs.nebuly.ai).
