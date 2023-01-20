@@ -31,6 +31,6 @@ As an open source project in a rapidly evolving field, we welcome contributions 
 ---
 
 <p align="center">
-  <a href="https://discord.gg/RbeQMu886J">Join the community</a> |
-  <a href="https://docs.nebuly.com/welcome/questions-and-contributions">Contribute to the library</a>
+  <a href="https://discord.gg/77d5kGSa8e">Join the community</a> |
+  <a href="https://www.nebuly.com/">Visit the website</a>
 </p>
