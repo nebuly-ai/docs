@@ -5,7 +5,7 @@ repo_name: nebuly-ai/nebullvm
 nav:
   - 👋 Welcome:
     - Quickstart: index.md
-    - Questions and contributions: contributions.md
+    - Contribution guidelines: contributions.md
   - Modules:
     - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
     - Nos: '!include ./nos/docs/en/mkdocs.yaml'
