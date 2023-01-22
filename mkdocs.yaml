@@ -34,6 +34,7 @@ markdown_extensions:
 theme:
   name: material
   logo: /assets/logo_n.png
+  favicon: /assets/logo_n.png
   palette:
     - media: '(prefers-color-scheme: light)'
       scheme: default
