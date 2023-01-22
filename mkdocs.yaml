@@ -54,6 +54,7 @@ theme:
   - search.highlight
   - content.tabs.link
   - content.code.copy
+  - content.code.annotate
   - navigation.instant
   - navigation.sections
   - navigation.tracking
