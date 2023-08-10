@@ -1,6 +1,6 @@
 site_name: Documentation
-repo_url: https://github.com/nebuly-ai/nebullvm
-repo_name: nebuly-ai/nebullvm
+repo_url: https://github.com/nebuly-ai/nebuly
+repo_name: nebuly-ai/nebuly
 
 
 nav:
@@ -8,8 +8,8 @@ nav:
     - Quickstart: index.md
     - Contribution guidelines: contributions.md
   - Modules:
-    - Speedster: '!include nebullvm/apps/accelerate/speedster/docs/en/mkdocs.yaml'
-    - Nos: '!include ./nos/docs/en/mkdocs.yaml'
+    - Speedster: '!include nebullvm/optimization/speedster/docs/en/mkdocs.yaml'
+    - Nos: '!include nos/docs/en/mkdocs.yaml'
 
 plugins:
   - monorepo
