@@ -4,5 +4,5 @@
   branch = main
 [submodule "nebullvm"]
 	path = nebullvm
-	url = https://github.com/nebuly-ai/nebullvm
+	url = https://github.com/nebuly-ai/nebuly
   branch = main
